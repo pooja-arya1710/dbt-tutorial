@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: customers
+    columns:
+    - name: customer_id
+      data_tests:
+        - unique
+        - not_null
+  - name: orders
+    columns:
+    - name: id
+      data_tests:
+      - unique
+      - not_null
+  - name: payments
+    columns:
+    - name: payment_id
+      data_tests:
+      - unique
+      - not_null
+        

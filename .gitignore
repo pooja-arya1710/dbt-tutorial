@@ -1,0 +1,17 @@
+# dbt artifacts
+dbt_modules/
+dbt_packages/
+target/
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Sensitive dbt profile (only if stored inside project, generally it's outside)
+#profiles.yml
+dbt_profiles.yml
